@@ -1,5 +1,3 @@
-TOKEN = jarviskeybot
-
 POST_ID = 710136927159844897
 
 ROLES = {
