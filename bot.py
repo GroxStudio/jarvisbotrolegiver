@@ -47,5 +47,5 @@ class MyClient(discord.Client):
             print(repr(e))
  
 # RUN
-client = MyClient()
-client.run("jarviskeybot")
+token = os.environ.get("jarviskeybot")
+client.run(str(token))
