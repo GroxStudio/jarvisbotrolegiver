@@ -48,4 +48,4 @@ class MyClient(discord.Client):
  
 # RUN
 client = MyClient()
-client.run(config.TOKEN)
+client.run("jarviskeybot")
